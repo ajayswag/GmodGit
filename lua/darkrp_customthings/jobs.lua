@@ -18,30 +18,44 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 Add jobs under the following line:
 ---------------------------------------------------------------------------]]
 
+TEAM_Stormtrooper = DarkRP.createJob("Stormtrooper", {
+   color = Color(255, 0, 0, 255),
+   model = {""},
+   description = [[He's the guy who shoots people]],
+   weapons = {"weapon_752_e11"},
+   command = "",
+   max = ,
+   salary = ,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "Stormtrooper",
+})
 
-
-
-
-
-
-
---[[---------------------------------------------------------------------------
-Define which team joining players spawn into and what team you change to if demoted
----------------------------------------------------------------------------]]
-GAMEMODE.DefaultTeam = TEAM_CITIZEN
-
-
---[[---------------------------------------------------------------------------
-Define which teams belong to civil protection
-Civil protection can set warrants, make people wanted and do some other police related things
----------------------------------------------------------------------------]]
-GAMEMODE.CivilProtection = {
-	[TEAM_POLICE] = true,
-	[TEAM_CHIEF] = true,
-	[TEAM_MAYOR] = true,
-}
-
---[[---------------------------------------------------------------------------
-Jobs that are hitmen (enables the hitman menu)
----------------------------------------------------------------------------]]
-DarkRP.addHitmanTeam(TEAM_MOB)
+Team_HeavyStormtrooper = DarkRP.createJob("Heavy Stormtrooper", {
+   color = Color(0, 0, 0, 255),
+   model = {""},
+   description = [[He eats a little too much so now he's heavy]],
+   weapons = {"weapon_752_e11"},
+   command = "",
+   max = ,
+   salary = ,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "Stormtrooper",
+})
