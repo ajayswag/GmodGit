@@ -18,7 +18,7 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 Add jobs under the following line:
 ---------------------------------------------------------------------------]]
 
-TEAM_Stormtrooper = DarkRP.createJob("Stormtrooper", {
+TEAM_STORMTROOPER = DarkRP.createJob("Stormtrooper", {
    color = Color(255, 0, 0, 255),
    model = {""},
    description = [[He's the guy who shoots people]],
@@ -39,7 +39,7 @@ TEAM_Stormtrooper = DarkRP.createJob("Stormtrooper", {
    category = "Stormtrooper",
 })
 
-Team_HeavyStormtrooper = DarkRP.createJob("Heavy Stormtrooper", {
+Team_HSTORMTROOPER = DarkRP.createJob("Heavy Stormtrooper", {
    color = Color(0, 0, 0, 255),
    model = {""},
    description = [[He eats a little too much so now he's heavy]],
@@ -58,4 +58,25 @@ Team_HeavyStormtrooper = DarkRP.createJob("Heavy Stormtrooper", {
    hobo = false,
    cook = false,
    category = "Stormtrooper",
+})
+
+Team_SNOWTROOPER  = DarkRP.createJob("Snow Trooper", {
+   color = Color(255, 255, 255, 255),
+   model = {""},
+   description = [[Hes likes snow]],
+   weapons = {"weapon_752_se14c" , "weapon_752_e11"},
+   command = "",
+   max = 10,
+   salary = ,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "StormTrooper",
 })
