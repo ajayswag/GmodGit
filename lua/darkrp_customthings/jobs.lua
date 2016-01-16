@@ -145,7 +145,26 @@ TEAM_HANSOLO = DarkRP.createJob("Han Solo", {
    category = "Rebels",
 })
 
-
+TEAM_Rebel = DarkRP.createJob("Rebel", {
+   color = Color(155, 61, 61, 255),
+   model = {""},
+   description = [[Rebel]],
+   weapons = {weapon_752_e11},
+   command = "/Rebel",
+   max = 5,
+   salary = 150,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "Rebels",
+})
 
 
 --[[---------------------------------------------------------------------------
