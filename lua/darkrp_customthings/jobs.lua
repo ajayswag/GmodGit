@@ -124,7 +124,26 @@ TEAM_KYLOREN = DarkRP.createJob("Kylo Ren", {
    category = "Knights of Ren",
 })
 
-
+TEAM_HANSOLO = DarkRP.createJob("Han Solo", {
+   color = Color(206, 60, 60, 255),
+   model = {""},
+   description = [[Hes Ma Nigga]],
+   weapons = {weapon_752_dl44},
+   command = "/HanSolo",
+   max = 1,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "Rebels",
+})
 
 
 
