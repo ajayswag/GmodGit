@@ -166,6 +166,26 @@ TEAM_Rebel = DarkRP.createJob("Rebel", {
    category = "Rebels",
 })
 
+TEAM_CHEWBACCA = DarkRP.createJob("Chewbacca", {
+   color = Color(106, 103, 255, 255),
+   model = {""},
+   description = [[A legendary Wookiee warrior]],
+   weapons = {},
+   command = "chewbacca",
+   max = 1,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "Rebels",
+})
 
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
