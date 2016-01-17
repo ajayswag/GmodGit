@@ -273,6 +273,26 @@ TEAM_TIEFIGTERPILOT = DarkRP.createJob("Tie Fighter Pilot", {
    category = "First Order Pilots",
 })
 
+TEAM_FIGHTERSQUADLEADER = DarkRP.createJob("Fighter Squad Leader", {
+   color = Color(171, 182, 0, 255),
+   model = {""},
+   description = [[Pilot for the First Order]],
+   weapons = {"repair_tool"},
+   command = "fighterqquadleader",
+   max = 1,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "First Order Pilots",
+})
 
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
