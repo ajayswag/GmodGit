@@ -230,6 +230,26 @@ TEAM_RIOTCONTROLOFFICER = DarkRP.createJob("Riot Control Officer", {
    category = "Riot Control",
 })
 
+TEAM_RIOTCONTROLSQUADLEADER = DarkRP.createJob("Riot Control Squad Leader", {
+   color = Color(0, 0, 0, 255),
+   model = {""},
+   description = [[Keeps the peace in space]],
+   weapons = {"weapon_752_e11"},
+   command = "riotcontrolsquadleader",
+   max = 1,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "Riot Control",
+})
 
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
