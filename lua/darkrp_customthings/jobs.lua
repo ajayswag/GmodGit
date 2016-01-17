@@ -187,6 +187,7 @@ TEAM_CHEWBACCA = DarkRP.createJob("Chewbacca", {
    category = "Rebels",
 })
 
+--------------------------------------------------------------------------
 
 TEAM_RIOTCONTROL = DarkRP.createJob("Riot Control", {
    color = Color(0, 0, 0, 255),
@@ -250,6 +251,28 @@ TEAM_RIOTCONTROLSQUADLEADER = DarkRP.createJob("Riot Control Squad Leader", {
    cook = false,
    category = "Riot Control",
 })
+
+TEAM_TIEFIGTERPILOT = DarkRP.createJob("Tie Fighter Pilot", {
+   color = Color(151, 159, 14, 255),
+   model = {""},
+   description = [[Pilot for the First Order]],
+   weapons = {"repair_tool"},
+   command = "tiefighterpilot",
+   max = 3,
+   salary = 200,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "First Order Pilots",
+})
+
 
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
